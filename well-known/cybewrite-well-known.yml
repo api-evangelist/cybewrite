@@ -1,0 +1,22 @@
+generated: '2026-07-18'
+method: searched
+source: live probes of https://cyberwrite.com/.well-known/*
+host: https://cyberwrite.com
+note: >-
+  The cyberwrite.com marketing/app surface is built on the Base44 no-code
+  platform; the OIDC/OAuth discovery documents below are served on the host but
+  their issuer is https://app.base44.com (the platform authorization server),
+  not a Cyberwrite-owned API authorization server.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 200
+  file: cybewrite-openid-configuration.json
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  file: cybewrite-oauth-authorization-server.json
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404

@@ -1,7 +1,29 @@
 aid: cybewrite
-name: Cybewrite
-description: Cybewrite is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cybewrite.png
+name: Cyberwrite
+description: >-
+  Cyberwrite is an AI-powered cyber insurance intelligence platform, founded in
+  2017, that turns raw data into explainable, defensible financial decisions for
+  the cyber insurance market. Its proprietary 4SEEN AI engine assesses cyber
+  risk, forecasts breaches, simulates financial impact, and recommends
+  mitigation, giving brokers, carriers, reinsurers, MGAs, ILS investors, and
+  corporates access to cyber risk analytics, catastrophe modeling, and risk
+  quantification on more than 100 million companies worldwide in seconds and in
+  eight languages. Cyberwrite delivers its scoring and analytics through an
+  enterprise API for real-time aggregated risk management; the platform is a
+  Gartner Cool Vendor and DIA Top 100 InsurTech, and was surfaced to the API
+  Evangelist network as a 500 Global portfolio company.
 url: https://raw.githubusercontent.com/api-evangelist/cybewrite/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Cyber Insurance
+- Cyber Risk
+- Insurtech
+- Risk Quantification
+- Catastrophe Modeling
+- Cybersecurity
+- Analytics
+- Artificial Intelligence
+- Insurance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,26 @@ maintainers:
 common:
 - type: Website
   url: https://cyberwrite.com
+- type: APIReference
+  url: https://cyberwrite.com/platform/api
+- type: TermsOfService
+  url: https://cyberwrite.com/legal/terms
+- type: PrivacyPolicy
+  url: https://cyberwrite.com/privacy-policy
+- type: Support
+  url: https://cyberwrite.com/contact
+- type: LLMsTxt
+  url: llms/cybewrite-llms.txt
+- type: WellKnown
+  url: well-known/cybewrite-well-known.yml
+- type: DomainSecurity
+  url: security/cybewrite-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/cybewrite-vulnerability-disclosure.yml
+- type: Security
+  url: https://cyberwrite.com/security/responsible-disclosure
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
